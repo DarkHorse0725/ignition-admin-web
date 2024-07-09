@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+thead.MuiTableHead-root {
+  background: none !important;
+}
+
+.MuiDataGrid-main > div:last-child {
+  display: none !important;
+}
+
+@font-face {
+  font-family: "Tenon";
+  src: url("../font/font-family/Tenon/Fontspring-DEMO-tenon-medium-2.otf");
+  src: url("../font/font-family/Tenon/Fontspring-DEMO-tenon-light-2.otf");
+  font-weight: 400;
+  font-style: normal;
+}

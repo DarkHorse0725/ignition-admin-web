@@ -1,0 +1,1 @@
+export { useCheckAdminContract } from "./useCheckAdminContract";
